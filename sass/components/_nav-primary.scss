@@ -1,0 +1,25 @@
+.nav-primary {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: #cf711f;
+  }
+
+  &__link.btn--cta:hover {
+    color: #fff;
+    background-color: #e67e22;
+  }
+}

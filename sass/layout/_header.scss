@@ -1,0 +1,21 @@
+.header {
+  padding: 2.4rem 0;
+  background-color: #fdf2e9;
+
+  &__container {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    img {
+      display: block;
+      width: 16.5rem;
+    }
+  }
+}
