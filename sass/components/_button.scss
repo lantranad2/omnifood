@@ -11,7 +11,7 @@
 .btn--primary:visited {
   color: #fff;
   background-color: #e67e22;
-  transition: 0.2s;
+  transition: background-color 0.2s;
 
   &:hover {
     background-color: #cf711f;
@@ -22,7 +22,7 @@
 .btn--secondary:visited {
   color: #333;
   background-color: #fff;
-  transition: 0.2s;
+  transition: all 0.2s;
 
   &:hover {
     background-color: #fdf2e9;
