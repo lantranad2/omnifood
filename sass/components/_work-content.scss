@@ -1,0 +1,21 @@
+.work-content {
+  &__number {
+    display: block;
+    font-size: 8.6rem;
+    color: #ddd;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}

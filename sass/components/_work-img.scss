@@ -1,0 +1,33 @@
+.work-img-box {
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &::before {
+    width: 70%;
+    padding-bottom: 70%;
+    background-color: #fdf2e9;
+    z-index: -2;
+  }
+
+  &::after {
+    width: 55%;
+    padding-bottom: 55%;
+    background-color: #fae5d3;
+    z-index: -1;
+  }
+
+  .work-img {
+    display: block;
+    margin: 0 auto;
+  }
+}

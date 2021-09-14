@@ -1,0 +1,17 @@
+.work-row {
+  display: flex;
+  gap: 4.4rem;
+  align-items: center;
+}
+
+.work-content {
+  flex: 0 0 60%;
+}
+
+.work-img-box {
+  flex: 0 0 40%;
+
+  .work-img {
+    width: 50%;
+  }
+}
