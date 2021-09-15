@@ -1,0 +1,34 @@
+.pricing {
+  padding: 9.6rem 0;
+
+  &__container {
+    margin-bottom: 4.8rem;
+  }
+
+  &__heading {
+    margin-bottom: 8.4rem;
+  }
+
+  &__plans {
+    display: flex;
+    gap: 6.4rem;
+    justify-content: center;
+
+    & > * {
+      flex: 0 0 32%;
+    }
+  }
+
+  &__aside {
+    margin-bottom: 6.2rem;
+  }
+
+  &__note {
+    text-align: center;
+    color: #555;
+  }
+}
+
+.freatures {
+  @include customized-grid(4, 3.2rem);
+}
