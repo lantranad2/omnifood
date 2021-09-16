@@ -1,0 +1,99 @@
+.cta {
+  margin-bottom: 50rem;
+
+  .container {
+  }
+
+  &__container {
+    background: linear-gradient(to right bottom, #eb984e, #e67e22);
+    border-radius: 11px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    // gap: 3.2rem;
+  }
+
+  &__content {
+    padding: 5.2rem;
+  }
+
+  &__title {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+    color: #45260a;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    color: #45260a;
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+
+    label {
+      display: block;
+      color: #45260a;
+      margin-bottom: 1.6rem;
+      font-weight: 500;
+    }
+
+    input,
+    select {
+      border: none;
+      padding: 1.6rem;
+      border-radius: 9px;
+      color: #555;
+      font-family: inherit;
+      display: block;
+      width: 100%;
+      font-size: inherit;
+    }
+
+    input::placeholder {
+      color: #aaa;
+    }
+
+    button {
+      align-self: end;
+      border: none;
+      border-radius: 11px;
+      padding: 1.6rem;
+      font-size: inherit;
+      background-color: #45260a;
+      color: #fdf2e9;
+      font-size: 2rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: #fdf2e9;
+        color: #45260a;
+      }
+    }
+  }
+
+  &__btn {
+  }
+
+  &__img {
+    background: linear-gradient(
+        to right bottom,
+        rgba(235, 151, 78, 0.35),
+        rgba(230, 125, 34, 0.35)
+      ),
+      url("../img/eating.jpg") no-repeat center/cover;
+  }
+
+  & *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  }
+}
